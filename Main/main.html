@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home | Food Website</title>
+    <!-- Link main file style.css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome style link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+<!-- Header of website -->
+<header class="">
+    <a href="#" class="logo"><i class="fa-solid fa-store"></i> Food Fresh</a>
+    <nav class="navigate-bar">
+      <a href="../../Main/main.html">Home</a>
+      <a href="Food-Product-Website/About/aboutUs.html">About</a>
+      <a href="../Products/product.html">Products</a>
+      <a href="#Features">Features</a>
+      <a href="#">Blog</a>
+    </nav>
+    <div class="icons">
+      <div class="fa-solid fa-bars" id="menu-btn"></div>
+      <div class="fa-solid fa-magnifying-glass" id="find-btn"></div>
+      <div class="fa-solid fa-cart-shopping" id="cart-btn"></div>
+      <div class="fa-solid fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+      <input type="search" id="seach-box" placeholder="Search here.... ">
+      <div class="label-container">
+        <label for="seach-box" class="fa-solid fa-magnifying-glass"></label>
+      </div>
+    </form>
+
+    <div class="cartShop">
+        <div class="title">Shopping Cart</div class="title">
+  
+        <div class="listCart">
+         
+          <div class="item">
+            <div class="image-container">
+              <img src="../Products/images/burger.png" alt="burger">
+            </div>
+            <div class="name"> Burger </div>
+            <div class="quantity"> $2.55 </div>
+            <div class="quantity">
+              <span class="minus"> < </span>
+              <span class="quan">1</span>
+              <span class="plus"> > </span>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="image-container">
+              <img src="../Products/images/burger.png" alt="burger">
+            </div>
+            <div class="name"> Burger </div>
+            <div class="quantity"> $2.55 </div>
+            <div class="quantity">
+              <span class="minus"> < </span>
+              <span class="quan">1</span>
+              <span class="plus"> > </span>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="image-container">
+              <img src="../Products/images/burger.png" alt="burger">
+            </div>
+            <div class="name"> Burger </div>
+            <div class="quantity"> $2.55 </div>
+            <div class="quantity">
+              <span class="minus"> < </span>
+              <span class="quan">1</span>
+              <span class="plus"> > </span>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="image-container">
+              <img src="../Products/images/burger.png" alt="burger">
+            </div>
+            <div class="name"> Burger </div>
+            <div class="quantity"> $2.55 </div>
+            <div class="quantity">
+              <span class="minus"> < </span>
+              <span class="quan">1</span>
+              <span class="plus"> > </span>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="image-container">
+              <img src="../Products/images/burger.png" alt="burger">
+            </div>
+            <div class="name"> Burger </div>
+            <div class="quantity"> $2.55 </div>
+            <div class="quantity">
+              <span class="minus"> < </span>
+              <span class="quan">1</span>
+              <span class="plus"> > </span>
+            </div>
+          </div>
+          
+          <div class="item">
+            <div class="image-container">
+              <img src="../Products/images/burger.png" alt="burger">
+            </div>
+            <div class="name"> Burger </div>
+            <div class="quantity"> $2.55 </div>
+            <div class="quantity">
+              <span class="minus"> < </span>
+              <span>1</span>
+              <span class="plus"> > </span>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="image-container">
+              <img src="../Products/images/burger.png" alt="burger">
+            </div>
+            <div class="name"> Burger </div>
+            <div class="quantity"> $2.55 </div>
+            <div class="quantity">
+              <span class="minus"> < </span>
+              <span>1</span>
+              <span class="plus"> > </span>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="image-container">
+              <img src="../Products/images/burger.png" alt="burger">
+            </div>
+            <div class="name"> Burger </div>
+            <div class="quantity"> $2.55 </div>
+            <div class="quantity">
+              <span class="minus"> < </span>
+              <span>1</span>
+              <span class="plus"> > </span>
+            </div>
+          </div>
+  
+        </div>
+  
+        <div class="total">Total: 20$</div>
+        <div class="btn">
+          <button class="close">Close</button>
+          <button class="checkOut">Check Out</button>
+        </div>
+        
+      </div>
+      <!-- End of cartShop  -->
+  
+
+
+    <!-- User Icon  -->
+    <form class="user">
+      <h3>Login now</h3>
+      <input type="username" placeholder="Username" class="box">
+      <input type="password" placeholder="Password" class="box">
+      <a href="../../User/register.html" class="register">Don't have an account? <span>Register Here</span></a>
+      <input href="../User/changePassword.html" type="submit" value="Login" class="btn">
+    </form>
+  </header>
+  <!-- Header end of website -->
+
+
+    <!-- Start Home section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh <span>domestic</span> and <span>imported</span> foods for you</h3>
+            <p>Our food store will provide you with the freshest and most delicious organic foods domestically and internationally. Click shopping below to buy food product.</p>
+            <a href="#" class="btn">Shopping now</a>
+        </div>
+    </section>
+    <!-- End Home section -->
+    <!-- Start Feature website -->
+    <section class="feature" id="feature">
+        <h1 class="heading">Our <span>Features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="../images/feature-fresh-organic-removebg.png" alt="Fresh and Organic">
+                <h3>Fresh and Organic Food</h3>
+                <p>Our store also offers you a few utilities to help you shop more conveniently and effectively. Click below to read more.</p>
+                <div class="btn">Read more</div>
+            </div>
+
+            <div class="box">
+                <img src="../images/feature-shipper-removebg.png" alt="Fresh and Organic">
+                <h3>Free Ship</h3>
+                <p>Our store also offers you a few utilities to help you shop more conveniently and effectively. Click below to read more.</p>
+                <div class="btn">Read more</div>
+            </div>
+
+            <div class="box">
+                <img src="../images/feature-payment-removebg.png" alt="Fresh and Organic">
+                <h3> Easy Payment</h3>
+                <p>Our store also offers you a few utilities to help you shop more conveniently and effectively. Click below to read more.</p>
+                <div class="btn">Read more</div>
+            </div>
+
+            <div class="box">
+                <img src="../images/feature-fresh-organic-removebg.png" alt="Fresh and Organic">
+                <h3>Fresh and Organic Food</h3>
+                <p>Our store also offers you a few utilities to help you shop more conveniently and effectively. Click below to read more.</p>
+                <div class="btn">Read more</div>
+            </div>
+
+            <div class="box">
+                <img src="../images/feature-fresh-organic-removebg.png" alt="Fresh and Organic">
+                <h3>Fresh and Organic Food</h3>
+                <p>Our store also offers you a few utilities to help you shop more conveniently and effectively. Click below to read more.</p>
+                <div class="btn">Read more</div>
+            </div>
+
+            <div class="box">
+                <img src="../images/feature-fresh-organic-removebg.png" alt="Fresh and Organic">
+                <h3>Fresh and Organic Food</h3>
+                <p>Our store also offers you a few utilities to help you shop more conveniently and effectively. Click below to read more.</p>
+                <div class="btn">Read more</div>
+            </div>
+        </div>
+    </section>
+    <!-- End Feature of website -->
+
+    <!-- Products domestic section start-->
+    <section class="products" id="products">
+        <h1 class="heading"><span>Domestic</span> Product</h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="../images/oringe.png" alt="Orange">
+                    <h3>Orange</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/chicken.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/chicken.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/oringe.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/chicken.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <a href="../Products/Domestic/domestic.html" class="show">Click to see more products</a>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="../images/oringe.png" alt="Orange">
+                    <h3>Orange</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/chicken.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/chicken.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/oringe.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/chicken.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="show">Click to see more products</a>
+    </section>
+    <!-- Products domestic section end-->
+
+    <!-- Products imported section start-->
+    <section class="products" id="products">
+        <h1 class="heading"><span>Imported</span> Product</h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="../images/oringe.png" alt="Orange">
+                    <h3>Orange</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/chicken.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/chicken.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/oringe.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/chicken.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="show">Click to see more products</a>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="../images/oringe.png" alt="Orange">
+                    <h3>Orange</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/chicken.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/chicken.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/oringe.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/chicken.png" alt="chicken">
+                    <h3>Chicken</h3>
+                    <div class="price">$4.99 - $10.99</div>
+                    <div class="type">Type: Domestic</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="show">Click to see more products</a>
+    </section>
+    <!-- Products domestic section end-->
+    <!-- Category section start -->
+    <section class="category" id="categories">
+        <h1 class="heading"><span>Category</span>Product</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="../images/chicken.png" alt="vegetable">
+                <h3>Vegetable</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Show now</a>
+            </div>
+
+            <div class="box">
+                <img src="../images/oringe.png" alt="vegetable">
+                <h3>daily product</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Show now</a>
+            </div>
+
+            <div class="box">
+                <img src="../images/chicken.png" alt="vegetable">
+                <h3>fresh product</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Show now</a>
+            </div>
+
+            <div class="box">
+                <img src="../images/oringe.png" alt="vegetable">
+                <h3>fresh meat</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Show now</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- Category section end -->
+    <!-- Review section start -->
+    <section class="review" id="reviews">
+        <h1 class="heading">Customer's <span>Review</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="../images/oringe.png" alt="">
+                    <p>Review foods fresh</p>
+                    <h3>Nhat Thanh</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/oringe.png" alt="">
+                    <p>Review meat </p>
+                    <h3>Nhat Thanh</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/oringe.png" alt="">
+                    <p>Review products</p>
+                    <h3>Nhat Thanh</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/oringe.png" alt="">
+                    <p>Review vegetables</p>
+                    <h3>Nhat Thanh</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="../images/oringe.png" alt="">
+                    <p>Review milk</p>
+                    <h3>Nhat Thanh</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Review section end -->
+    <!-- Block section starts -->
+    <section class="blogs" id="blog">
+        <h1 class="heading">Our <span>blog</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="../blogs/img/profile.jpg" alt="picture">
+                <div class="content">
+                    <h3>Steak Oushii Beef Suitable For All Ages</h3>
+                    <p>Smith John</p>
+                    <a href="../blogs/post.html" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../blogs/img/profile.jpg" alt="picture">
+                <div class="content">
+                    <h3>The most "Hunted" Imported Beef Series</h3>
+                    <p>Smith John</p>
+                    <a href="../blogs/post2.html" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../blogs/img/profile.jpg" alt="picture">
+                <div class="content">
+                    <h3>Upgraded domestic clean meat</h3>
+                    <p>Smith John</p>
+                    <a href="../blogs/post.html" class="btn">See more</a>
+                </div>
+            </div>   
+            <div class="box">
+                <img src="../blogs/img/profile.jpg" alt="picture">
+                <div class="content">
+                    <h3>Upgraded domestic clean meat</h3>
+                    <p>Smith John</p>
+                    <a href="../blogs/post.html" class="btn">See more</a>
+                </div>
+            </div>   
+        </div>
+    </section>
+    <!-- Block section ends -->
+    
+    <!-- Footer starts -->
+    <footer>
+        <div class="box-container">
+        <div class="box">
+            <h3><i class="fa-solid fa-store"></i> Food Fresh</h3>
+
+            <p>Social media</p>
+            <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 class="middle">Contact with Us</h3>
+            <div class="contacts">
+            <p>Contact</p>
+            <a href=""><i class="fa-solid fa-phone"></i> 0386037685</a>
+            <a href=""><i class="fa-solid fa-envelope"></i> foodfresh@gmail.com</a>
+            <a href=""><i class="fa-solid fa-location-dot"></i> Ha Dong, Ha Noi</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Newsletters</h3>
+            <div class="box-content">
+            <p>Send your email</p>
+            <div class="email-box">
+                <input type="email" placeholder="Your email" class="email">
+                <input type="submit" value="Submit" class="btn">
+            </div>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+    <!-- Footer ends -->
+
+</body>
+<!-- Link main file script css -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</html>

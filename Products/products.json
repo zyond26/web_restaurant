@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name":"Burger",
+        "price": 2.22,
+        "image": "images/burger.png"
+    },
+    {
+        "id": 2,
+        "name":"Indian Meal",
+        "price": 3.67,
+        "image": "images/indianMeal.png"
+    },
+    {
+        "id": 3,
+        "name":" Chicken Thigh",
+        "price": 4.4,
+        "image": "images/kfc.png"
+    },
+    {
+        "id": 4,
+        "name":" Chicken Thigh",
+        "price": 2.43,
+        "image": "images/burger2"
+    },
+    {
+        "id": 5,
+        "name":" Chicken Thigh",
+        "price": 3.2,
+        "image": "images/burger3"
+    },
+    {
+        "id": 6,
+        "name":" Chicken Thigh",
+        "price": 3.2,
+        "image": "images/burger4"
+    },
+    {
+        "id": 7,
+        "name":" Chicken Thigh",
+        "price": 3.5,
+        "image": "images/burger5"
+    },
+    {
+        "id": 8,
+        "name":" Chicken Thigh",
+        "price": 3.7,
+        "image": "images/burger7"
+    }
+]

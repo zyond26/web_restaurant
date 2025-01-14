@@ -1,0 +1,72 @@
+<!--Bảo Nhi-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register account</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="register-form" action="">
+            <h1>REGISTER ACCOUNT</h1>
+            <div class="form-control">
+                <input id="username" type="text" placeholder="Username">
+                <small></small>
+                <span></span>
+            </div>
+            
+            <div class="form-control ">
+                <input id="email" type="email" placeholder="Email">
+                <small></small>
+                <span></span>
+            </div>
+
+            <div class="form-control ">
+                <input id="phone" type="phone" placeholder="Phone">
+                <small></small>
+                <span></span>
+            </div>
+            
+            <div class="form-control ">
+                <input id="password" type="password" placeholder="Password">
+                <small></small>
+                <span></span>
+            </div>
+            
+            <div class="form-control ">
+                <input id="confirmPass" type="password" placeholder="Confirm Password">
+                <small></small>
+                <span></span>
+            </div>
+
+            <div class="control">
+                <button type="submit" class="btn-submit">Sign up</button>
+            </div>
+    
+            <div class="account-link">
+                Back home to login? <a href="../Main/main.html" id="changePass">Click here</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="modal hide">
+        <div class="modal_inner">
+            <div class="modal_header">
+                <p>Notice</p>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="modal_body">
+                <p>You have successfully signup account</p>
+            </div>
+            <div class="modal_footer">
+                <button>Close</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="register.js"></script>
+</html>
